@@ -1,0 +1,107 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Dump Library Log                                                 )
+(                                                                     )
+(    Software Version : 16.6S034                                      )
+(    Date/Time        : Thu Jul 18 11:25:12 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+*** file: C:/Users/user/Desktop/samples-master/avrusb500_r02/Allegro/allegro/avrusb500.brd ***
+
+
+
+  *** Creating all device files (see create_devices.log) ***
+
+
+  *** Creating padstacks. ***
+
+  TM_AXIAL_LLB_PAD3 being dumped.
+
+  TM_CYLND_LLB_PAD3 being dumped.
+
+  TM_CYLND_LLB_PAD4 being dumped.
+
+  TM_CAP_P_LLB_PAD3 being dumped.
+
+  TM_CAP_P_LLB_PAD4 being dumped.
+
+  SMD50_63 being dumped.
+
+  SMD50_87 being dumped.
+
+  VIA being dumped.
+
+  QUAD_LLB_PAD99 being dumped.
+
+  QUAD_LLB_PAD100 being dumped.
+
+  VIA1 being dumped.
+
+  T1_1 being dumped.
+
+  T2_1 being dumped.
+
+  T3_1 being dumped.
+
+  QUAD_SMALL_SMD being dumped.
+
+  QUADSMALLSMD9000 being dumped.
+
+  TM_RAD_LLB_PAD2 being dumped.
+
+  QUADSMALLSMD18000 being dumped.
+
+  QUADSMALLSMD27000 being dumped.
+
+  QUAD_LLB_PAD93_1 being dumped.
+
+  QUAD_LLB_PAD94_1 being dumped.
+
+  QUAD_LLB_PAD95_1 being dumped.
+
+  QUAD_LLB_PAD96_1 being dumped.
+
+  QUAD_LLB_PAD97_1 being dumped.
+
+  QUAD_LLB_PAD98_1 being dumped.
+
+  BCON100T_LLB_PAD3 being dumped.
+
+  BCON100T_LLB_PAD4 being dumped.
+
+
+  *** Creating flash symbols (.dra and .fsm) ***
+
+  ab00 being dumped.
+
+
+  *** Creating package symbols (.dra and .psm) ***
+
+  quad80m32wg900 being dumped.
+
+  cyld250ls125031 being dumped.
+
+  usbminib being dumped.
+
+  rad450x200ls300031 being dumped.
+
+  ax400x100031 being dumped.
+
+  blkcon100vhtm1sqsw1005 being dumped.
+
+  cpcyl1d225ls100031 being dumped.
+
+
+
+*********************** Summary *********************
+ERRORs reported:                           0
+
+Number of padstacks dumped:               27
+Number of package symbols dumped:          7
+Number of flash symbols dumped:            1
+
+Total number of symbols dumped:            8
+*****************************************************
+

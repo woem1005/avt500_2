@@ -1,0 +1,36 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Create_devices LOG file                                          )
+(                                                                     )
+(    Drawing          : avrusb500.brd                                 )
+(    Software Version : 16.6S034                                      )
+(    Date/Time        : Thu Jul 18 11:25:12 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+Device file 'C:/Users/user/Desktop/samples-master/avrusb500_r02/Allegro/allegro/symbols/capacitornon-pol_cpcyl1d225l.txt': written successfully.
+Device file 'C:/Users/user/Desktop/samples-master/avrusb500_r02/Allegro/allegro/symbols/capacitornon-pol_cpcyl1d225l__1.txt': written successfully.
+Device file 'C:/Users/user/Desktop/samples-master/avrusb500_r02/Allegro/allegro/symbols/capacitornon-pol_cpcyl1d225l__2.txt': written successfully.
+Device file 'C:/Users/user/Desktop/samples-master/avrusb500_r02/Allegro/allegro/symbols/capacitornon-pol_cpcyl1d225l__3.txt': written successfully.
+Device file 'C:/Users/user/Desktop/samples-master/avrusb500_r02/Allegro/allegro/symbols/capacitorpol_cpcyl1d225ls100.txt': written successfully.
+Device file 'C:/Users/user/Desktop/samples-master/avrusb500_r02/Allegro/allegro/symbols/led_cyld250ls125031_led_.txt': written successfully.
+Device file 'C:/Users/user/Desktop/samples-master/avrusb500_r02/Allegro/allegro/symbols/atmega8-dil28_1_quad80m32wg9.txt': written successfully.
+Device file 'C:/Users/user/Desktop/samples-master/avrusb500_r02/Allegro/allegro/symbols/con5_blkcon100vhtm1sqsw1005_.txt': written successfully.
+Device file 'C:/Users/user/Desktop/samples-master/avrusb500_r02/Allegro/allegro/symbols/con4_6_usbminib_usba_.txt': written successfully.
+Device file 'C:/Users/user/Desktop/samples-master/avrusb500_r02/Allegro/allegro/symbols/con5_blkcon100vhtm1sqsw1005___1.txt': written successfully.
+Device file 'C:/Users/user/Desktop/samples-master/avrusb500_r02/Allegro/allegro/symbols/con5_blkcon100vhtm1sqsw1005___2.txt': written successfully.
+Device file 'C:/Users/user/Desktop/samples-master/avrusb500_r02/Allegro/allegro/symbols/r_ax400x100031_470_smdres.txt': written successfully.
+Device file 'C:/Users/user/Desktop/samples-master/avrusb500_r02/Allegro/allegro/symbols/r_ax400x100031_1k_smdres.txt': written successfully.
+Device file 'C:/Users/user/Desktop/samples-master/avrusb500_r02/Allegro/allegro/symbols/r_ax400x100031_220_smdres.txt': written successfully.
+Device file 'C:/Users/user/Desktop/samples-master/avrusb500_r02/Allegro/allegro/symbols/r_ax400x100031_27_smdres.txt': written successfully.
+Device file 'C:/Users/user/Desktop/samples-master/avrusb500_r02/Allegro/allegro/symbols/r_ax400x100031_15k_smdres.txt': written successfully.
+Device file 'C:/Users/user/Desktop/samples-master/avrusb500_r02/Allegro/allegro/symbols/r_ax400x100031_22_smdres.txt': written successfully.
+Device file 'C:/Users/user/Desktop/samples-master/avrusb500_r02/Allegro/allegro/symbols/r_ax400x100031_10k_smdres.txt': written successfully.
+Device file 'C:/Users/user/Desktop/samples-master/avrusb500_r02/Allegro/allegro/symbols/ft232bm_2_quad80m32wg900_ft2.txt': written successfully.
+Device file 'C:/Users/user/Desktop/samples-master/avrusb500_r02/Allegro/allegro/symbols/zta_rad450x200ls300031_36864.txt': written successfully.
+Device file 'C:/Users/user/Desktop/samples-master/avrusb500_r02/Allegro/allegro/symbols/zta_rad450x200ls300031_6mhz_.txt': written successfully.
+
+  Created device files: 21
+
