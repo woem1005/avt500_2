@@ -1,0 +1,35 @@
+avrusb ISP stk500 / original by tuxgraphics.org  Revised: Monday, July 29, 2019
+0          Revision: 0
+
+
+
+
+
+
+
+Bill Of Materials           July 29,2019      15:48:07	Page1
+
+Item	Quantity	Reference	Part
+______________________________________________
+
+1	2	C1,C4	47nF
+2	2	C2,C3	27pF
+3	4	C5,C7,C8,C9	100nF
+4	1	C6	1uF
+5	1	C10	22nF
+6	1	D1	LED
+7	1	IC1	ATmega8
+8	1	J1	bbpg_Bitbang
+9	1	J2	USBA
+10	1	J3	avrusb500_out
+11	1	J4	firmware_in
+12	2	R1,R10	470
+13	6	R2,R3,R4,R12,R14,R15	220
+14	2	R5,R6	27
+15	1	R7	1.5k
+16	1	R8	2.2
+17	1	R9	10k
+18	2	R11,R13	1k
+19	1	U1	FT232BM
+20	1	Y1	3.6864Mhz
+21	1	Y2	6Mhz

@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.6.0 d001Jul-18-2019 at 14:49:25}
+{ Using PSTWRITER 17.2.0 d001Jul-29-2019 at 10:26:01}
 primitive 'CAPACITOR NON-POL_CPCYL1D225LS1';
   pin
     '1':
@@ -13,7 +13,7 @@ primitive 'CAPACITOR NON-POL_CPCYL1D225LS1';
     PART_NAME='CAPACITOR NON-POL';
     JEDEC_TYPE='CPCYL1D225LS100031';
     VALUE='47nF';
-    ALT_SYMBOLS='(SMDCAP)';
+    ALT_SYMBOLS='(SML2015)';
   end_body;
 end_primitive;
 primitive 'CAPACITOR NON-POL_CPCYL1D225L_1';
@@ -29,7 +29,7 @@ primitive 'CAPACITOR NON-POL_CPCYL1D225L_1';
     PART_NAME='CAPACITOR NON-POL';
     JEDEC_TYPE='CPCYL1D225LS100031';
     VALUE='22nF';
-    ALT_SYMBOLS='(SMDCAP)';
+    ALT_SYMBOLS='(SML2015)';
   end_body;
 end_primitive;
 primitive 'CAPACITOR NON-POL_CPCYL1D225L_2';
@@ -45,7 +45,7 @@ primitive 'CAPACITOR NON-POL_CPCYL1D225L_2';
     PART_NAME='CAPACITOR NON-POL';
     JEDEC_TYPE='CPCYL1D225LS100031';
     VALUE='27pF';
-    ALT_SYMBOLS='(SMDCAP)';
+    ALT_SYMBOLS='(SML2015)';
   end_body;
 end_primitive;
 primitive 'CAPACITOR NON-POL_CPCYL1D225L_3';
@@ -78,6 +78,22 @@ primitive 'CAPACITOR POL_CPCYL1D225LS10003';
     JEDEC_TYPE='CPCYL1D225LS100031';
     VALUE='1uF';
     ALT_SYMBOLS='(SMDCAP)';
+  end_body;
+end_primitive;
+primitive 'CAPACITOR NON-POL_CPCYL1D225L_4';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAPACITOR NON-POL';
+    JEDEC_TYPE='CPCYL1D225LS100031';
+    VALUE='100nF';
+    ALT_SYMBOLS='(SML2015)';
   end_body;
 end_primitive;
 primitive 'LED_CYLD250LS125031_LED_';
@@ -342,7 +358,7 @@ primitive 'CON5_BLKCON100VHTM1SQSW1005_FIR';
     VALUE='firmware_in';
   end_body;
 end_primitive;
-primitive 'R_AX400X100031_470_SMDRES';
+primitive 'R_AX400X100031_470_SML2015';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -355,10 +371,10 @@ primitive 'R_AX400X100031_470_SMDRES';
     PART_NAME='R';
     JEDEC_TYPE='AX400X100031';
     VALUE='470';
-    ALT_SYMBOLS='(SMDRES)';
+    ALT_SYMBOLS='(SML2015)';
   end_body;
 end_primitive;
-primitive 'R_AX400X100031_1K_SMDRES';
+primitive 'R_AX400X100031_1K_SML2015';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -371,10 +387,10 @@ primitive 'R_AX400X100031_1K_SMDRES';
     PART_NAME='R';
     JEDEC_TYPE='AX400X100031';
     VALUE='1k';
-    ALT_SYMBOLS='(SMDRES)';
+    ALT_SYMBOLS='(SML2015)';
   end_body;
 end_primitive;
-primitive 'R_AX400X100031_220_SMDRES';
+primitive 'R_AX400X100031_220_SML2015';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -387,10 +403,10 @@ primitive 'R_AX400X100031_220_SMDRES';
     PART_NAME='R';
     JEDEC_TYPE='AX400X100031';
     VALUE='220';
-    ALT_SYMBOLS='(SMDRES)';
+    ALT_SYMBOLS='(SML2015)';
   end_body;
 end_primitive;
-primitive 'R_AX400X100031_27_SMDRES';
+primitive 'R_AX400X100031_27_SML2015';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -403,10 +419,10 @@ primitive 'R_AX400X100031_27_SMDRES';
     PART_NAME='R';
     JEDEC_TYPE='AX400X100031';
     VALUE='27';
-    ALT_SYMBOLS='(SMDRES)';
+    ALT_SYMBOLS='(SML2015)';
   end_body;
 end_primitive;
-primitive 'R_AX400X100031_1.5K_SMDRES';
+primitive 'R_AX400X100031_1.5K_SML2015';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -419,10 +435,10 @@ primitive 'R_AX400X100031_1.5K_SMDRES';
     PART_NAME='R';
     JEDEC_TYPE='AX400X100031';
     VALUE='1.5k';
-    ALT_SYMBOLS='(SMDRES)';
+    ALT_SYMBOLS='(SML2015)';
   end_body;
 end_primitive;
-primitive 'R_AX400X100031_2.2_SMDRES';
+primitive 'R_AX400X100031_2.2_SML2015';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -435,10 +451,10 @@ primitive 'R_AX400X100031_2.2_SMDRES';
     PART_NAME='R';
     JEDEC_TYPE='AX400X100031';
     VALUE='2.2';
-    ALT_SYMBOLS='(SMDRES)';
+    ALT_SYMBOLS='(SML2015)';
   end_body;
 end_primitive;
-primitive 'R_AX400X100031_10K_SMDRES';
+primitive 'R_AX400X100031_10K_SML2015';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -451,7 +467,7 @@ primitive 'R_AX400X100031_10K_SMDRES';
     PART_NAME='R';
     JEDEC_TYPE='AX400X100031';
     VALUE='10k';
-    ALT_SYMBOLS='(SMDRES)';
+    ALT_SYMBOLS='(SML2015)';
   end_body;
 end_primitive;
 primitive 'FT232BM_2_QUAD80M32WG900_FT232B';

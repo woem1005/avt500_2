@@ -24,7 +24,22 @@
     ("Allegro Netlist Combine Property String" "PCB Footprint")
     ("Allegro Netlist Ignore Fixed Property" "FALSE")
     ("Allegro Netlist User Defined Property" "FALSE")
-    (Netlist_TAB "0"))
+    (Netlist_TAB "0")
+    ("Allegro Setup Configuration File"
+       "C:\Cadence\SPB_17.2\tools\capture\allegro.cfg")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File
+       "C:\USERS\USER\DESKTOP\VSCODE_ORCAD\WORKSPACE\AVRUSB500\AVRUSB500.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_Header "Item\tQuantity\tReference\tPart")
+    (BOM_Include_File
+       "C:\USERS\USER\DESKTOP\VSCODE_ORCAD\WORKSPACE\AVRUSB500\AVRUSB500.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "FALSE")
+    (BOM_View_Output "FALSE"))
   (Folder "Outputs"
     (File ".\allegro\pstxnet.dat"
       (Type "Report")
@@ -34,7 +49,9 @@
       (DisplayName "pstxprt.dat"))
     (File ".\allegro\pstchip.dat"
       (Type "Report")
-      (DisplayName "pstchip.dat")))
+      (DisplayName "pstchip.dat"))
+    (File ".\avrusb500.bom"
+      (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector)
   (GlobalState
@@ -43,7 +60,8 @@
       (Path "Design Resources" ".\avrusb500.dsn")
       (Path "Design Resources" ".\avrusb500.dsn" "SCHEMATIC1")
       (Path "Outputs")
-      (Select "Design Resources" ".\avrusb500.dsn" "SCHEMATIC1" "PAGE1"))
+      (Select "Outputs"
+         "c:\users\user\desktop\vscode_orcad\workspace\avrusb500\avrusb500.bom"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -53,11 +71,13 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 75 1661 75 647")
-        (Scroll "0 22")
-        (Zoom "100")
+        (Placement "44 2 3 -1 -1 -8 -30 50 1690 50 514")
+        (Scroll "-76 378")
+        (Zoom "142")
         (Occurrence "/"))
-      (Path "C:\USERS\USER\DESKTOP\AVRUSB500\AVRUSB500.DSN")
+      (Path
+         "C:\USERS\USER\DESKTOP\VSCODE_ORCAD\WORKSPACE\AVRUSB500\AVRUSB500.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1")))
-  (ISPCBBASICLICENSE "false"))
+  (ISPCBBASICLICENSE "false")
+  (MPSSessionName "user"))

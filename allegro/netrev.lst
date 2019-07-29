@@ -3,8 +3,8 @@
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
 (    Drawing          : AVRUSB500.brd                                 )
-(    Software Version : 16.6S034                                      )
-(    Date/Time        : Thu Jul 18 14:55:35 2019                      )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Mon Jul 29 10:44:02 2019                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -17,21 +17,21 @@ Ripup retain bondwire:       No
 Ripup symbols:               Always
 Missing symbol has error:    No
 DRC update:                  Yes
-Schematic directory:         'C:\USERS\USER\DESKTOP\AVRUSB500\allegro'
+Schematic directory:         'C:\USERS\USER\DESKTOP\VSCODE_ORCAD\WORKSPACE\AVRUSB500\allegro'
 Design Directory:            '.'
-Old design name:             'C:/USERS/USER/DESKTOP/AVRUSB500/allegro/AVRUSB500.brd'
-New design name:             'C:/USERS/USER/DESKTOP/AVRUSB500/allegro/AVRUSB500.brd'
+Old design name:             'C:/USERS/USER/DESKTOP/VSCODE_ORCAD/WORKSPACE/AVRUSB500/allegro/AVRUSB500.brd'
+New design name:             'C:/USERS/USER/DESKTOP/VSCODE_ORCAD/WORKSPACE/AVRUSB500/allegro/AVRUSB500.brd'
 
-CmdLine: netrev.exe -y 1 -n -i C:\USERS\USER\DESKTOP\AVRUSB500\allegro C:\USERS\USER\DESKTOP\AVRUSB500\allegro\AVRUSB500.brd C:\USERS\USER\DESKTOP\AVRUSB500\allegro\AVRUSB500.brd
+CmdLine: netrev.exe -y 1 -n -i C:\USERS\USER\DESKTOP\VSCODE_ORCAD\WORKSPACE\AVRUSB500\allegro C:\USERS\USER\DESKTOP\VSCODE_ORCAD\WORKSPACE\AVRUSB500\allegro\AVRUSB500.brd C:\USERS\USER\DESKTOP\VSCODE_ORCAD\WORKSPACE\AVRUSB500\allegro\AVRUSB500.brd
 
 ------ Preparing to read pst files ------
 
-Starting to read C:/USERS/USER/DESKTOP/AVRUSB500/allegro/pstchip.dat 
-   Finished reading C:/USERS/USER/DESKTOP/AVRUSB500/allegro/pstchip.dat (00:00:00.03)
-Starting to read C:/USERS/USER/DESKTOP/AVRUSB500/allegro/pstxprt.dat 
-   Finished reading C:/USERS/USER/DESKTOP/AVRUSB500/allegro/pstxprt.dat (00:00:00.00)
-Starting to read C:/USERS/USER/DESKTOP/AVRUSB500/allegro/pstxnet.dat 
-   Finished reading C:/USERS/USER/DESKTOP/AVRUSB500/allegro/pstxnet.dat (00:00:00.00)
+Starting to read C:/USERS/USER/DESKTOP/VSCODE_ORCAD/WORKSPACE/AVRUSB500/allegro/pstchip.dat 
+   Finished reading C:/USERS/USER/DESKTOP/VSCODE_ORCAD/WORKSPACE/AVRUSB500/allegro/pstchip.dat (00:00:00.08)
+Starting to read C:/USERS/USER/DESKTOP/VSCODE_ORCAD/WORKSPACE/AVRUSB500/allegro/pstxprt.dat 
+   Finished reading C:/USERS/USER/DESKTOP/VSCODE_ORCAD/WORKSPACE/AVRUSB500/allegro/pstxprt.dat (00:00:00.00)
+Starting to read C:/USERS/USER/DESKTOP/VSCODE_ORCAD/WORKSPACE/AVRUSB500/allegro/pstxnet.dat 
+   Finished reading C:/USERS/USER/DESKTOP/VSCODE_ORCAD/WORKSPACE/AVRUSB500/allegro/pstxnet.dat (00:00:00.00)
 
 ------ Oversights/Warnings/Errors ------
 
@@ -42,33 +42,33 @@ WARNING(SPMHNI-194): Symbol 'JEDECMS026' used by RefDes U1 for device 'FT232BM_2
 
 ------ Library Paths ------
 MODULEPATH =  . 
-           c:/Users/user/Desktop/demo_c/pcb/modules 
+           C:/Cadence/SPB_17.2/share/local/pcb/modules 
 
 PSMPATH =  . 
            symbols 
            .. 
            ../symbols 
-           c:/Users/user/Desktop/demo_c/pcb/symbols 
-           C:/Users/user/Desktop/vscode_orcad/cdns/cdns/share/pcb/pcb_lib/symbols 
-           C:/Users/user/Desktop/vscode_orcad/cdns/cdns/share/pcb/allegrolib/symbols 
-           C:/USERS/USER/DESKTOP/ORCAD WORK/PCD_LIB/PSM/ 
+           C:/Cadence/SPB_17.2/share/local/pcb/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+           C:/Users/user/Desktop/vscode_orcad/workspace/pcb_lib/psm/ 
 
 PADPATH =  . 
            symbols 
            .. 
            ../symbols 
-           c:/Users/user/Desktop/demo_c/pcb/padstacks 
-           C:/Users/user/Desktop/vscode_orcad/cdns/cdns/share/pcb/pcb_lib/symbols 
-           C:/Users/user/Desktop/vscode_orcad/cdns/cdns/share/pcb/allegrolib/symbols 
-           C:/USERS/USER/DESKTOP/ORCAD WORK/PCD_LIB/PAD/ 
+           C:/Cadence/SPB_17.2/share/local/pcb/padstacks 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+           C:/Users/user/Desktop/vscode_orcad/workspace/pcb_lib/pad/ 
 
 
 ------ Summary Statistics ------
 
 
-netrev run on Jul 18 14:55:35 2019
+netrev run on Jul 29 10:44:02 2019
    DESIGN NAME : 'AVRUSB500'
-   PACKAGING ON Apr 28 2014 16:45:46
+   PACKAGING ON Mar  2 2016 00:37:24
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -91,6 +91,6 @@ netrev run on Jul 18 14:55:35 2019
  No oversight detected
   1 warnings detected
 
-cpu time      0:00:40
-elapsed time  0:00:00
+cpu time      0:02:35
+elapsed time  0:00:01
 

@@ -3,8 +3,8 @@
 (    NC DRILL Log                                                     )
 (                                                                     )
 (    Drawing          : AVRUSB500.brd                                 )
-(    Software Version : 16.6S034                                      )
-(    Date/Time        : Fri Jul 19 12:40:29 2019                      )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Mon Jul 29 15:30:56 2019                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -16,7 +16,7 @@
  -------------
 
  FORMAT   		5.5
- MACHINE-OFFSET		x:0.000000	y:0.000000
+ MACHINE-OFFSET		x:0.00000	y:0.00000   (mm)
  FEEDRATE		1
  COORDINATES		ABSOLUTE
  OUTPUT-UNITS		METRIC
@@ -39,7 +39,7 @@
  WARNING(SPMHMF-366): They can be processed by NC routing instead.
 
 
- Drill files being output to directory 'C:/Users/user/Desktop/AVRUSB500/allegro/gerber' ...
+ Drill files being output to directory 'C:/Users/user/Desktop/vscode_orcad/workspace/AVRUSB500/allegro/gerber' ...
 
 
 
@@ -48,11 +48,12 @@
 
            Num     Size      +/- Tolerance     Plating   Quantity
 
-            1.   0.3300    0.0000/  0.0000      PLATED         15
-            2.   0.7869    0.0000/  0.0000      PLATED         56
-            3.   1.0671    0.0000/  0.0000      PLATED         15
+            1.   0.3300    0.0000/  0.0000      PLATED         13
+            2.   0.7870    0.0000/  0.0000      PLATED         12
+            3.   1.0670    0.0000/  0.0000      PLATED         15
+            4.   3.1750    0.0000/  0.0000  NON_PLATED          4
 
-     ---- Total holes:                                         86
+     ---- Total holes:                                         44
 
-     ---- Total head travel:              5.39 feet (1.64 meters)
+     ---- Total head travel:              2.78 feet (0.85 meters)
 

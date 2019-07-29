@@ -2,8 +2,8 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  C:/USERS/USER/DESKTOP/AVRUSB500/allegro/AVRUSB500.brd                       |
-|                                                    Thu Jul 18 14:49:26 2019  |
+|  C:/USERS/USER/DESKTOP/ORCAD WORK/AVRUSB500/allegro/AVRUSB500.brd            |
+|                                                    Mon Jul 29 10:26:01 2019  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
@@ -58,8 +58,8 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|  C:/USERS/USER/DESKTOP/AVRUSB500/allegro/AVRUSB500.brd                       |
-|                                                    Thu Jul 18 14:49:26 2019  |
+|  C:/USERS/USER/DESKTOP/ORCAD WORK/AVRUSB500/allegro/AVRUSB500.brd            |
+|                                                    Mon Jul 29 10:26:01 2019  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
@@ -114,8 +114,8 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   3  |
 |------------------------------------------------------------------------------|
-|  C:/USERS/USER/DESKTOP/AVRUSB500/allegro/AVRUSB500.brd                       |
-|                                                    Thu Jul 18 14:49:26 2019  |
+|  C:/USERS/USER/DESKTOP/ORCAD WORK/AVRUSB500/allegro/AVRUSB500.brd            |
+|                                                    Mon Jul 29 10:26:01 2019  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
@@ -147,8 +147,8 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   4  |
 |------------------------------------------------------------------------------|
-|  C:/USERS/USER/DESKTOP/AVRUSB500/allegro/AVRUSB500.brd                       |
-|                                                    Thu Jul 18 14:49:26 2019  |
+|  C:/USERS/USER/DESKTOP/ORCAD WORK/AVRUSB500/allegro/AVRUSB500.brd            |
+|                                                    Mon Jul 29 10:26:01 2019  |
 |------------------------------------------------------------------------------|
 | COMPONENT DEFINITION added to design                                         |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
@@ -159,6 +159,7 @@
  CAPACITOR NON-POL_CPCYL1D225L_1
  CAPACITOR NON-POL_CPCYL1D225L_2
  CAPACITOR NON-POL_CPCYL1D225L_3
+ CAPACITOR NON-POL_CPCYL1D225L_4
  CAPACITOR POL_CPCYL1D225LS10003
  CON4_7_MICRO_USB_USBA_
  CON5_BLKCON100VHTM1SQSW1005_AVR
@@ -166,21 +167,21 @@
  CON5_BLKCON100VHTM1SQSW1005_FIR
  FT232BM_2_QUAD80M32WG900_FT232B
  LED_CYLD250LS125031_LED_
- R_AX400X100031_1.5K_SMDRES
- R_AX400X100031_10K_SMDRES
- R_AX400X100031_1K_SMDRES
- R_AX400X100031_2.2_SMDRES
- R_AX400X100031_220_SMDRES
- R_AX400X100031_27_SMDRES
- R_AX400X100031_470_SMDRES
+ R_AX400X100031_1.5K_SML2015
+ R_AX400X100031_10K_SML2015
+ R_AX400X100031_1K_SML2015
+ R_AX400X100031_2.2_SML2015
+ R_AX400X100031_220_SML2015
+ R_AX400X100031_27_SML2015
+ R_AX400X100031_470_SML2015
  ZTA_RAD450X200LS300031_3.6864MH
  ZTA_RAD450X200LS300031_6MHZ_
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   5  |
 |------------------------------------------------------------------------------|
-|  C:/USERS/USER/DESKTOP/AVRUSB500/allegro/AVRUSB500.brd                       |
-|                                                    Thu Jul 18 14:49:26 2019  |
+|  C:/USERS/USER/DESKTOP/ORCAD WORK/AVRUSB500/allegro/AVRUSB500.brd            |
+|                                                    Mon Jul 29 10:26:01 2019  |
 |------------------------------------------------------------------------------|
 | COMPONENTS ADDED to design                                                   |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
@@ -192,8 +193,8 @@
  C4                  CAPACITOR NON-POL_CPCYL1D225LS1 
  C5                  CAPACITOR NON-POL_CPCYL1D225L_3 
  C6                  CAPACITOR POL_CPCYL1D225LS10003 
- C7                  CAPACITOR NON-POL_CPCYL1D225L_3 
- C8                  CAPACITOR NON-POL_CPCYL1D225L_3 
+ C7                  CAPACITOR NON-POL_CPCYL1D225L_4 
+ C8                  CAPACITOR NON-POL_CPCYL1D225L_4 
  C9                  CAPACITOR NON-POL_CPCYL1D225L_3 
  C10                 CAPACITOR NON-POL_CPCYL1D225L_1 
  D1                  LED_CYLD250LS125031_LED_ 
@@ -202,21 +203,21 @@
  J2                  CON4_7_MICRO_USB_USBA_ 
  J3                  CON5_BLKCON100VHTM1SQSW1005_AVR 
  J4                  CON5_BLKCON100VHTM1SQSW1005_FIR 
- R1                  R_AX400X100031_470_SMDRES 
- R2                  R_AX400X100031_220_SMDRES 
- R3                  R_AX400X100031_220_SMDRES 
- R4                  R_AX400X100031_220_SMDRES 
- R5                  R_AX400X100031_27_SMDRES 
- R6                  R_AX400X100031_27_SMDRES 
- R7                  R_AX400X100031_1.5K_SMDRES 
- R8                  R_AX400X100031_2.2_SMDRES 
- R9                  R_AX400X100031_10K_SMDRES 
- R10                 R_AX400X100031_470_SMDRES 
- R11                 R_AX400X100031_1K_SMDRES 
- R12                 R_AX400X100031_220_SMDRES 
- R13                 R_AX400X100031_1K_SMDRES 
- R14                 R_AX400X100031_220_SMDRES 
- R15                 R_AX400X100031_220_SMDRES 
+ R1                  R_AX400X100031_470_SML2015 
+ R2                  R_AX400X100031_220_SML2015 
+ R3                  R_AX400X100031_220_SML2015 
+ R4                  R_AX400X100031_220_SML2015 
+ R5                  R_AX400X100031_27_SML2015 
+ R6                  R_AX400X100031_27_SML2015 
+ R7                  R_AX400X100031_1.5K_SML2015 
+ R8                  R_AX400X100031_2.2_SML2015 
+ R9                  R_AX400X100031_10K_SML2015 
+ R10                 R_AX400X100031_470_SML2015 
+ R11                 R_AX400X100031_1K_SML2015 
+ R12                 R_AX400X100031_220_SML2015 
+ R13                 R_AX400X100031_1K_SML2015 
+ R14                 R_AX400X100031_220_SML2015 
+ R15                 R_AX400X100031_220_SML2015 
  U1                  FT232BM_2_QUAD80M32WG900_FT232B 
  Y1                  ZTA_RAD450X200LS300031_3.6864MH 
  Y2                  ZTA_RAD450X200LS300031_6MHZ_ 
@@ -224,8 +225,8 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   6  |
 |------------------------------------------------------------------------------|
-|  C:/USERS/USER/DESKTOP/AVRUSB500/allegro/AVRUSB500.brd                       |
-|                                                    Thu Jul 18 14:49:26 2019  |
+|  C:/USERS/USER/DESKTOP/ORCAD WORK/AVRUSB500/allegro/AVRUSB500.brd            |
+|                                                    Mon Jul 29 10:26:01 2019  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
@@ -265,6 +266,22 @@
  U1.28                          PRIM_FILE      .\pstchip.dat
  Y1.2                           PRIM_FILE      .\pstchip.dat
  Y2.2                           PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
 |------------------------------------------------------------------------------|
-|   total ECO changes reported  200                                            |
+|  C:/USERS/USER/DESKTOP/ORCAD WORK/AVRUSB500/allegro/AVRUSB500.brd            |
+|                                                    Mon Jul 29 10:26:01 2019  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|------------------------------------------------------------------------------|
+|       Nets changed          :     111                                        |
+|       Comp definitions added:      22                                        |
+|       Components added      :      34                                        |
+|       Slot property added   :      34                                        |
+|                                                                              |
+|   Total ECO changes reported:     201                                        |
 |------------------------------------------------------------------------------|
